@@ -26,7 +26,7 @@
         <p>Advanced Totorial</p>
       </div>
       <div class="main-page" id="app">
-        <HomePage msg="Welcome to KemboiJS Organization" />
+        <HomePage msg="Welcome to KemboiJS Organization" code="const kemboi = Kemboijs();" />
       </div>
       <div class="right-navbar">
         <p>Related Articles</p>

@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/kemboijs/kemboijs.org.svg?branch=master)](https://travis-ci.org/kemboijs/kemboijs.org)
+[![Maintainability](https://api.codeclimate.com/v1/badges/9fdcefea1a8cb77a3dd1/maintainability)](https://codeclimate.com/github/kemboijs/kemboijs.org/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/9fdcefea1a8cb77a3dd1/test_coverage)](https://codeclimate.com/github/kemboijs/kemboijs.org/test_coverage)
+
 # kemboijs.org
 
 ## Project setup

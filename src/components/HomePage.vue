@@ -10,6 +10,10 @@
         rel="noopener"
       >vue-cli documentation</a>.
     </p>
+    <pre>
+      <code class="language-javascript" v-html="$options.filters.highlight(code)">
+      </code>
+    </pre>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li>
@@ -74,7 +78,8 @@
 export default {
   name: "HomePage",
   props: {
-    msg: String
+    msg: String,
+    code: String
   }
 };
 </script>
