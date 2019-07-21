@@ -26,7 +26,15 @@
         <p>Advanced Totorial</p>
       </div>
       <div class="main-page" id="app">
-        <HomePage msg="Welcome to KemboiJS Organization" code="const kemboi = Kemboijs();" />
+        <HomePage
+          msg="Welcome to KemboiJS Organization"
+          code="
+        const kemboijs = require('kemboijs');
+        const app = kemboijs();
+        app.listen(8000);
+        "
+          class="prism-code"
+        />
       </div>
       <div class="right-navbar">
         <p>Related Articles</p>
@@ -53,6 +61,10 @@ export default {
 <style>
 .app-layout {
   display: flex;
+}
+
+.prism-code {
+  margin: 10px 50px;
 }
 
 .left-navbar {

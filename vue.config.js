@@ -1,3 +1,4 @@
 module.exports = {
-    publicPath: "/kemboijs.org/"
+    publicPath: "/kemboijs.org/",
+    outputDir: "docs"
 }
