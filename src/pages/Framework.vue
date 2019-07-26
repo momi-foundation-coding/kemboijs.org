@@ -3,7 +3,7 @@
     <div class="parent">
       <nav class="top-navbar">
         <a href="/">
-          <img src="./assets/logo.png" id="logo-image" alt="kemboijs organization logo" />
+          <img src="../assets/logo.png" id="logo-image" alt="kemboijs organization logo" />
         </a>
         <a href="/">About Us</a>
         <a href="/">Get Started</a>
@@ -11,7 +11,7 @@
         <a href="/">FAQs</a>
         <a href="/">Community</a>
         <a href="/">
-          <img src="./assets/github.svg" alt="kemboijs organization logo" />
+          <img src="../assets/github.svg" alt="kemboijs organization logo" />
         </a>
       </nav>
     </div>
@@ -26,7 +26,7 @@
         <p>Advanced Totorial</p>
       </div>
       <div class="main-page" id="app">
-        <HomePage
+        <Framework
           msg="Welcome to KemboiJS Organization"
           code="
         const kemboijs = require('kemboijs');
@@ -48,12 +48,12 @@
 </template>
 
 <script>
-import HomePage from "./components/HomePage.vue";
+import Framework from "../components/Framework.vue";
 
 export default {
   name: "app",
   components: {
-    HomePage
+    Framework
   }
 };
 </script>
