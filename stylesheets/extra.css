@@ -1,0 +1,15 @@
+footer {
+    background-color: cyan !important;
+}
+
+.md-footer-color {
+    background-color: cyan;
+}
+
+.md-footer-meta .md-typeset {
+    background-color: cyan;
+}
+
+.md-footer-copyright {
+    color: cyan;
+}
