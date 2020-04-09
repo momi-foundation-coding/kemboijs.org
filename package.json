@@ -1,0 +1,30 @@
+{
+  "name": "kemboijs.org",
+  "version": "1.0.0",
+  "description": "Docs for kemboijs.org tools",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemboijs/kemboijs.org.git"
+  },
+  "keywords": [
+    "docs",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kemboijs/kemboijs.org/issues"
+  },
+  "homepage": "https://github.com/kemboijs/kemboijs.org#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
